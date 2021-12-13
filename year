@@ -1,0 +1,10 @@
+#include <iostream>
+#include <Windows.h>
+using namespace std;
+int main()
+{
+	int year;
+	cin >> year;
+	cout << "In " << year << " year = " << (int)(366 - (double)(year % 4) / (10)) << " days";
+
+}
